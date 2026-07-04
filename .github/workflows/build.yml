@@ -144,7 +144,7 @@ jobs:
           - helloworld
           - multipleresults
     steps:
-      - uses: aneoconsulting/ArmoniK@main
+      - uses: aneoconsulting/ArmoniK@724a4b5c7e894941d58e2f2abd626816be174e01 # main
         id: deploy-infra
         with:
           ingress: 'None'
@@ -174,7 +174,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - uses: aneoconsulting/ArmoniK@main
+      - uses: aneoconsulting/ArmoniK@724a4b5c7e894941d58e2f2abd626816be174e01 # main
         id: deploy-infra
         with:
           ingress: 'None'
